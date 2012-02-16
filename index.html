@@ -1,0 +1,45 @@
+<html>
+<head>
+	<title>JESUS MATRIX</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap.min.css" />
+	<style>
+		body {
+        	padding-top: 60px; 
+        	/* 60px to make the container go all the way to the bottom of the topbar */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="brand" href="#">JESUS MATRIX</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+    	<form class="well" action="#" method="GET">
+    		<label>Input</label>
+    		<input id="input" type="text" class="span3" placeholder="Type something…" />
+    		<button id="transform" type="submit" class="btn">Transform</button>
+    	</form>
+
+		<h2>Output</h2>
+		<div id="output" class="well"></div>
+
+		<h2>Numerologie nach Pythagoras</h2>
+		<table class="table" id="pt_matrix">
+		</table>
+		
+		<h2>Alphasystem</h2>
+		<table class="table" id="a_matrix">
+		</table>
+
+    </div> <!-- /container -->
+
+	<script type="text/javascript" src="jquery.min.js"></script>
+	<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
